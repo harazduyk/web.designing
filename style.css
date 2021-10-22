@@ -55,10 +55,6 @@
     padding: 3% 5% 5% 3%;
 }
 
-.block_2 .white_text {
-    color: rgb(236, 230, 230);
-}
-
 .block_2 .best_strarting {
     background-image: url(./image/photo3.png);
     background-repeat: no-repeat;
@@ -92,4 +88,76 @@
 .verified_dummy .link_2 {
     color: rgb(223, 215, 215);
     border: 1px solid rgb(223, 215, 215);
+}
+
+.block_3 {
+    display: flex;
+}
+
+.designed_by {
+    width: 35%;
+    background-image: url(./image/photo5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 3% 3% 5% 3%;
+}
+
+.designed_by .logo {
+    margin-top: 60%;
+}
+
+.designed_by .ali_sayed {
+    font-weight: 900;
+    color: rgb(236, 230, 230);
+}
+
+.designed_by h5 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.say_hello {
+    width: 65%;
+    background-image: url(./image/photo6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 3% 0% 0% 4%;
+}
+
+.say_hello input {
+    background: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.say_hello .first_and_second_form {
+    border-radius: 12px;
+    padding: 2% 10% 2% 3%;
+    margin: 1% 1% 1% 0;
+}
+
+.say_hello .third_form {
+    border-radius: 12px;
+    padding: 2% 47% 13% 2%; 
+    margin-bottom: 18%;
+}
+
+.say_hello .link {
+    margin: 2% 0 5% 0;
+}
+
+.main .white_text {
+    color: rgb(236, 230, 230);
+}
+
+.second_half .link_1:hover {
+    background-color: #d4c38f9a;
+}
+
+.second_half .link_2:hover {
+    background-color: #71757aa1;
 }
