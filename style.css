@@ -2,14 +2,14 @@
     display: flex;
 }
 
-.web_designing {
+.block_1 .web_designing {
     background-color: #f3f3f3;
-    padding: 5% 7% 0% 6%;
+    padding: 4% 8% 0% 7%;
 }
 
 .main h1 {
     font-family: 'Nanum Gothic', sans-serif;
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 300;
     letter-spacing: 1.5px;
 }
@@ -18,20 +18,78 @@
     font-weight: 900;
 }
 
-.text_project {
+.block_1 .text_project {
     font-weight: 600;
 }
 
 .main p {
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 300;
     line-height: 28px;
     letter-spacing: 1px;
     color: #685f5f;
 }
 
 .block_1 .text_in_block1 {
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
     margin-top: 8%;
+    
+}
+
+.block_2 {
+    display: flex;
+}
+
+.block_2 .second_half {
+    display: block;
+}
+
+.block_2 .drawing_scketch {
+    width: 100%;
+    background-image: url(./image/photo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 3% 5% 5% 3%;
+}
+
+.block_2 .white_text {
+    color: rgb(236, 230, 230);
+}
+
+.block_2 .best_strarting {
+    background-image: url(./image/photo3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 4% 23% 10% 7%;
+}
+
+.second_half a {
+    width: 38%;
+    display: flex;
+    text-decoration: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    color: rgb(37, 35, 35);
+    border: 1px solid rgb(59, 56, 56);
+    justify-content: center;
+    border-radius: 10px;
+    padding: 2% 0%;
+    margin-top: 10%;
+}
+
+.verified_dummy {
+    background-image: url(./image/phptp4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 4% 23% 10% 7%;
+}
+
+.verified_dummy .link_2 {
+    color: rgb(223, 215, 215);
+    border: 1px solid rgb(223, 215, 215);
 }
