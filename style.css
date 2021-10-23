@@ -1,6 +1,9 @@
 .block_1 {
     display: flex;
 }
+.block_1 .image img {
+    height: 100%;
+}
 
 .block_1 .web_designing {
     background-color: #f3f3f3;
@@ -133,20 +136,43 @@
     font-size: 18px;
     border-radius: 12px;
     color: white;
-}
-
-.say_hello .first_and_second_form {
     padding: 2% 10% 2% 3%;
     margin: 1% 1% 1% 0;
 }
 
-.say_hello .third_form {
-    padding: 2% 47% 13% 2%; 
-    margin-bottom: 18%;
+.say_hello textarea {
+    background: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    border-radius: 12px;
+    color: white;
+    padding: 2% 36% 0 2%; 
+    margin-bottom: 14%;
 }
 
 .say_hello .link {
+    display: flex;
+}
+
+.say_hello .link a {
+    width: 5%;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 1%;
     margin: 2% 0 5% 0;
+}
+.say_hello .link .logo_facebook {
+    background-color: #345bb4; 
+}
+
+.say_hello .link .logo_dribbble {
+    background-color: #e64895;
+    margin: 2% 1% 5% 1%;
+}
+
+.say_hello .link .logo_twitter {
+    background-color: #00b4ff;
 }
 
 .main .white_text {
@@ -159,4 +185,16 @@
 
 .second_half .link_2:hover {
     background-color: #71757aa1;
+}
+
+.link .logo_facebook:hover {
+    background-color: #4d6ebb8a;
+} 
+
+.link .logo_dribbble:hover {
+    background-color: #c9508a86;
+}
+
+.link .logo_twitter:hover {
+    background-color: #4cbff09a;
 }
