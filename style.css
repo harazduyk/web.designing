@@ -1,11 +1,15 @@
 .block_1 {
+    width: 100%;
     display: flex;
 }
+
 .block_1 .image img {
+    max-width: 100%;
     height: 100%;
 }
 
 .block_1 .web_designing {
+    width: 45%;
     background-color: #f3f3f3;
     padding: 4% 8% 0% 7%;
 }
@@ -38,19 +42,20 @@
     font-weight: 600;
     font-size: 18px;
     margin-top: 8%;
-    
 }
 
 .block_2 {
+    width: 100%;
     display: flex;
 }
 
 .block_2 .second_half {
+    width: 48%;
     display: block;
 }
 
 .block_2 .drawing_scketch {
-    width: 100%;
+    width: 52%;
     background-image: url(./image/photo2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,13 +71,18 @@
     padding: 4% 23% 10% 7%;
 }
 
+.second_half {
+    height: 100%;
+    width: 48%;
+}
+
 .second_half a {
     width: 38%;
     display: flex;
     text-decoration: none;
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 20px;
-    color: #262626
+    color: #262626;
     border: 1px solid rgb(59, 56, 56);
     justify-content: center;
     border-radius: 10px;
@@ -130,7 +140,6 @@
     padding: 3% 0% 0% 4%;
 }
 
-
 .say_hello input {
     background: none;
     font-family: 'Nanum Gothic', sans-serif;
@@ -148,7 +157,7 @@
     font-size: 18px;
     border-radius: 12px;
     color: #ffffff;
-    padding: 2%; 
+    padding: 2%;
     margin-bottom: 14%;
 }
 
@@ -164,8 +173,9 @@
     padding: 1%;
     margin: 2% 0 5% 0;
 }
+
 .say_hello .link .logo_facebook {
-    background-color: #345bb4; 
+    background-color: #345bb4;
 }
 
 .say_hello .link .logo_dribbble {
@@ -191,7 +201,7 @@
 
 .link .logo_facebook:hover {
     background-color: #4d6ebb8a;
-} 
+}
 
 .link .logo_dribbble:hover {
     background-color: #c9508a86;
@@ -199,4 +209,53 @@
 
 .link .logo_twitter:hover {
     background-color: #4cbff09a;
+}
+
+@media (min-width: 768px) and (max-width: 1260px) {
+    .second_half a {
+        width: 70%;
+    }
+    .main h1 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .block_1 {
+        display: block;
+    }
+    .block_1 .web_designing {
+        width: 100%;
+        padding: 4% 8% 5% 7%;
+    }
+    .block_2 {
+        display: block;
+    }
+    .block_2 .drawing_scketch {
+        width: 100%;
+    }
+    .block_2 .second_half {
+        width: 100%;
+        display: block;
+    }
+    .block_3 {
+        display: block;
+    }
+    .designed_by {
+        width: 100%;
+        padding-left: 5%;
+    }
+    .say_hello {
+        width: 100%;
+        padding: 3% 0% 5% 4%;
+    }
+    .designed_by .logo {
+        margin-top: 20%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 600px) {
+    .second_half a {
+        width: 80%;
+    }
 }
