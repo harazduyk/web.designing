@@ -166,7 +166,7 @@
 }
 
 .say_hello .link a {
-    width: 5%;
+    width: 40px;
     display: flex;
     border-radius: 8px;
     justify-content: center;
